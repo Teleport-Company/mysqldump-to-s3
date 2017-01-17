@@ -1,18 +1,18 @@
 {
-  "name": "db-export",
+  "name": "mysqldump-to-s3",
   "version": "0.0.1",
   "description": "Exports databases from RDS instance to S3 bucket",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/luciditysoftware/db-export"
+    "url": "git://github.com/luciditysoftware/mysqldump-to-s3"
   },
   "author": "tristankenney",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luciditysoftware/db-export/issues"
+    "url": "https://github.com/luciditysoftware/mysqldump-to-s3/issues"
   },
-  "homepage": "https://github.com/luciditysoftware/db-export",
+  "homepage": "https://github.com/luciditysoftware/mysqldump-to-s3",
   "dependencies": {
     "aws-sdk": "^2.7.21",
     "moment": "^2.17.1",
