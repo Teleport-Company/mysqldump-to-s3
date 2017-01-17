@@ -1,4 +1,4 @@
-# node-lambda
+# mysqldump-to-s3
 
 AWS Lambda function to export MySQL databases to AWS S3.
 
