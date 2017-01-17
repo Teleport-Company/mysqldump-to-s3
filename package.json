@@ -1,0 +1,27 @@
+{
+  "name": "db-export",
+  "version": "0.0.1",
+  "description": "Exports databases from RDS instance to S3 bucket",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luciditysoftware/db-export"
+  },
+  "author": "tristankenney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciditysoftware/db-export/issues"
+  },
+  "homepage": "https://github.com/luciditysoftware/db-export",
+  "dependencies": {
+    "aws-sdk": "^2.7.21",
+    "moment": "^2.17.1",
+    "mysql": "^2.12.0",
+    "node-lambda": "0.1.5"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  }
+}
